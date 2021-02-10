@@ -14,6 +14,8 @@ const useStyles =makeStyles({
     background: 'rgba(110,130,151)',
     backgroundImage: 'linear-gradient(90deg),rgba(110, 130, 151, 1) 0%, rgba(110, 130, 151, 1) 55%, rgb(85, 54, 92) 65%, rgb(92, 64, 100) 75%, rgb(107, 70, 117) 90%,rgb(122, 75, 133) 95%, rgba(68, 69, 69, 1) 100%',
     boxShadow: '4px 4px 8px 0px #444545',
+    position: 'fixed',
+    top: 0
   },
   footerWrapper:{
     color:'#b1d6d7',
