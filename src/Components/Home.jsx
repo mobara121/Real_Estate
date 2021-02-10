@@ -5,7 +5,7 @@ import LivingRoom from '../asset/andrew-oyen-kitchen-large-opening-1588528101.jp
 const useStyles =makeStyles({
     home:{
         maxHeight: '100%',
-        margin: '20vh auto',
+        margin: '15vh auto',
         // marginBottom: '10vh',
         display: 'flex',
         flexDirection: 'row',

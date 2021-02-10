@@ -1,7 +1,7 @@
 import React from 'react';
 import {makeStyles} from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
-import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
+import { Form } from 'reactstrap';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
@@ -85,7 +85,7 @@ const useStyles =makeStyles({
     btn:{
         margin:'2vh auto',
         width:'100px',
-        height: '5vh',
+        height: '50px',
         borderRadius:'5px',
         border:'solid 1px #b1d6d7',
         backgroundColor: '#b1d6d7',

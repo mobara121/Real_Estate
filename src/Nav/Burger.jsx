@@ -7,7 +7,7 @@ const useStyles = makeStyles({
         width:'2rem',
         height:'2rem',
         position:'fixed',
-        top:'10px',
+        top:'8px',
         right: '20px',
         zIndex:20,
         display:'none',
@@ -23,6 +23,7 @@ const useStyles = makeStyles({
         borderRadius: '10px',
         transformOrigin:'1px',
         transition:'all 0.3s linear',
+        backgroundColor:'#b1d6d7'
     }
 })
 
@@ -33,9 +34,9 @@ function Burger(){
     return(
         <>
             <div className={classes.burger} open={open} onClick={()=>setOpen(!open)}>
-                <div className={classes.line} style={open? {backgroundColor:'#b1d6d7', transform:'rotate(45deg)'} : {backgroundColor:'#6e8297', transform:'rotate(0)'} } />
-                <div className={classes.line} style={open? {backgroundColor:'#b1d6d7', transform:'translateX(100%)', opacity:0} : {backgroundColor:'#6e8297', transform:'translateX(0)', opacity:1} }/>
-                <div className={classes.line} style={open? {backgroundColor:'#b1d6d7', transform:'rotate(-45deg)'} : {backgroundColor:'#6e8297', transform:'rotate(0)'} }/>
+                <div className={classes.line} style={open? { transform:'rotate(45deg)'} : {transform:'rotate(0)'} } />
+                <div className={classes.line} style={open? { transform:'translateX(100%)', opacity:0} : {transform:'translateX(0)', opacity:1} }/>
+                <div className={classes.line} style={open? { transform:'rotate(-45deg)'} : { transform:'rotate(0)'} }/>
             </div>
             <RightNav open={open} setOpen={setOpen}/>
         </>

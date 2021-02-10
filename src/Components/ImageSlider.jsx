@@ -27,7 +27,7 @@ const useStyles =makeStyles({
         left:'32px',
         fontSize:'calc(2em + 1vmin)',
         color: 'rgba(177, 214, 215, 0.7)',
-        zIndex: 10,
+        // zIndex: 10,
         cursor: 'pointer',
         userSelect:'none'
     },
@@ -43,7 +43,7 @@ const useStyles =makeStyles({
     },
     image:{
         minWidth:'320px',
-        width: '70vw',
+        width: '90vw',
         // borderRadius: '10px',
         boxShadow: '4px 4px 8px 0px #444545',
     },

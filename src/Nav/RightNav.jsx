@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {Switch, Route, Link} from 'react-router-dom';
 import Home from '../Components/Home';
 import About from '../Components/About';
@@ -19,8 +19,8 @@ width: 100vw;
 position: fixed;
 top:0;
 margin-top:0;
-height: 8vh;
-line-height: 8vh;
+height: 50px;
+line-height: 50px;
 z-index: 1;
 justify-content: space-around;
 padding-inline-start: 0;
