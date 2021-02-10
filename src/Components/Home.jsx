@@ -16,6 +16,7 @@ const useStyles =makeStyles({
         minWidth:'330px',
         height: '30vh',
         margin: 'auto 5vw',
+        paddingTop:'2vh',
         paddingBottom:'5vh',
         fontSize: 'calc(3em + 1vmin)',
         color: '#444545',
