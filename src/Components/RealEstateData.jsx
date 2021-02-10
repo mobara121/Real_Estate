@@ -1,0 +1,32 @@
+export const RealEstateData = [
+    {
+        image:'https://cdn.vox-cdn.com/thumbor/7XjiZOFK8LM3Pi0dLG0lGz4Uclg=/0x0:1704x959/1200x800/filters:focal(716x344:988x616)/cdn.vox-cdn.com/uploads/chorus_image/image/58595207/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_hero_1704x959.0.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/uploads/chorus_asset/file/10168363/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_5_1704x1137.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/thumbor/RP3iOT1S1CidLaIa7Z1WVwoLKLA=/0x0:1704x1141/920x0/filters:focal(0x0:1704x1141):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10168341/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_14_1704x1141.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/uploads/chorus_asset/file/10168345/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_9_1704x1142.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/uploads/chorus_asset/file/10168349/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_23.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/thumbor/fgCgcPwfW7aAjLE7JeXgwY2c1V4=/0x0:2364x1585/920x0/filters:focal(0x0:2364x1585):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10168351/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_24.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/thumbor/Grkz6hA-QHp7XdfjpuhUqJ6IRYo=/0x0:1704x1148/920x0/filters:focal(0x0:1704x1148):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10168347/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_17_1704x1148.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/thumbor/wNrWbtPSkW36bfVd8VzfenbR7ig=/0x0:2364x1552/920x0/filters:focal(0x0:2364x1552):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10168393/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_16.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/uploads/chorus_asset/file/10168367/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_4_1704x1159.jpg'
+    },
+    {
+        image:'https://cdn.vox-cdn.com/thumbor/2INczjTIUukgyXl5mHPr2yLUhlM=/0x0:1704x1132/920x0/filters:focal(0x0:1704x1132):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10168401/midcentury_modern_renovation_haus_architecture_interiors_indianapolis_indiana_usa_dezeen_2364_col_3_1704x1132.jpg'
+    }
+]
