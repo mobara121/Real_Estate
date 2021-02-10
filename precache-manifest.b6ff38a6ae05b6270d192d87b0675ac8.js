@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "376110b83185ab8032b383dc6ac9b836",
+    "revision": "303dd638123e9cc1867b72bd6744eebd",
     "url": "/Real_Estate/index.html"
   },
   {
-    "revision": "28bcd113f36ba1cef7e8",
+    "revision": "4b9f6f3e7e233224c96c",
     "url": "/Real_Estate/static/css/main.fa167449.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Real_Estate/static/js/2.1804b150.chunk.js"
   },
   {
-    "revision": "28bcd113f36ba1cef7e8",
-    "url": "/Real_Estate/static/js/main.c584fa86.chunk.js"
+    "revision": "4b9f6f3e7e233224c96c",
+    "url": "/Real_Estate/static/js/main.8271484c.chunk.js"
   },
   {
     "revision": "a35d993c430c7bffbf94",
