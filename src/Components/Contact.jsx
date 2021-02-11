@@ -100,18 +100,19 @@ function Contact(){
     return(
         <div className={classes.contact}>
             <div className={classes.contactUpper}>
-                <p>Chizuki Lothamer</p>
-                <p>ワタナベ チヅキ / 渡辺 稚月</p>
+                <p>Real Estate</p>
+                <p>Real Estate</p>
                 <p>address:</p>
-                <p>317-447-2372</p>
-                <p>Chizuki.lothamer@markdietel.com</p>
+                <p>317-XXX-XXXX</p>
+                {/* <p>Chizuki.lothamer@markdietel.com</p> */}
+                <p>sample@sample.com</p>
                 <div className={classes.iconWrapper}>
                     <div className={classes.iconContainer}><FacebookIcon className={classes.icon}/></div>
                     <div className={classes.iconContainer}><LinkedInIcon className={classes.icon}/></div>                    
                 </div>
             </div>
             <div className={classes.contactLower}>
-                <div className={classes.p}>インディアナでのお家ご購入に関して、なんでもお気軽にお問い合わせください。</div>
+                <div className={classes.p} lang="jp">インディアナでのお家ご購入に関して、なんでもお気軽にお問い合わせください。</div>
                 <Form className={classes.form}>
                     <TextField
                         required

@@ -79,7 +79,7 @@ function About(){
                 <span className={classes.span}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. </span>
             </div>
             <div className={classes.aboutLower}>
-                <span className={classes.span}>渡辺 稚月　経歴</span>
+                <span className={classes.span} lang="jp">渡辺 稚月　経歴</span>
                 <Timeline align="alternate">
                     <TimelineItem>
                         <TimelineOppositeContent>
@@ -95,7 +95,7 @@ function About(){
                         </TimelineSeparator>
                         <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
-                            <div variant="h6" component="h6">
+                            <div variant="h6" component="h6" lang="jp">
                             米国移住
                             </div>
                             {/* <Typography>大学卒業後…</Typography> */}
@@ -116,7 +116,7 @@ function About(){
                         </TimelineSeparator>
                         <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
-                            <div variant="h6" component="h1">
+                            <div variant="h6" component="h1" lang="jp">
                             資格取得
                             </div>
                             {/* <div>リアルターとなる</div> */}
@@ -132,7 +132,7 @@ function About(){
                         </TimelineSeparator>
                         <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
-                            <div variant="h6" component="h1">
+                            <div variant="h6" component="h1" lang="jp">
                             活動開始
                             </div>
                             {/* <Typography>リアルターとして活動開始</Typography> */}
@@ -147,7 +147,7 @@ function About(){
                         </TimelineSeparator>
                         <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
-                            <div style={{fontSize:'0.7em'}}>
+                            <div style={{fontSize:'0.7em'}} lang="jp">
                             活動中
                             </div>
                             <Typography></Typography>

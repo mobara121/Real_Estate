@@ -71,7 +71,7 @@ function App() {
       </Router>
       <footer className={classes.footerWrapper}>
         <div className={classes.footerContainer}>
-          <p className={classes.footer}>Chizuki Watanabe</p>
+          <p className={classes.footer}>Real Estate</p>
           <p className={classes.footer} style={{fontSize:'0.7em'}}>&copy; 2021 MIZUE O'BARA, All rights reserved.</p>
         </div>
         <div className={classes.footerIcons}>

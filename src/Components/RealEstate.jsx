@@ -32,10 +32,10 @@ function RealEstate(){
     const classes=useStyles();
     return(
         <div className={classes.realEstate}>
-            <p style={{color: '#444545', textAlign:'left', fontSize:'1.2em'}}>最新のおうち情報です。より詳細についてはどうぞお気軽にお問い合わせください。</p>
+            <p style={{color: '#444545', textAlign:'left', fontSize:'1.2em'}} lang="jp">最新のおうち情報です。より詳細についてはどうぞお気軽にお問い合わせください。</p>
             <ImageSlider slides={RealEstateData}/>
             <div className={classes.realEstateLower}>
-                <p style={{color:'#444545'}}>おうち情報</p>
+                <p style={{color:'#444545'}} lang="jp">おうち情報</p>
             </div>
         </div>
     )

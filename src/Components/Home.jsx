@@ -90,8 +90,8 @@ function Home(){
     return(
         <div className={classes.home}>
             <div className={classes.name}>
-                <div className={classes.first}>Chizuki</div>
-                <div className={classes.last}>Watanabe</div>
+                <div className={classes.first}>Real</div>
+                <div className={classes.last}>Estate</div>
                 <div className={classes.title}>
                     <span>Japanese & English</span>
                     <span>Bilingual Real Estate Agent</span> 

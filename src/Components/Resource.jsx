@@ -82,44 +82,44 @@ function Resource(){
     return(
         <div className={classes.resource}>
             <div>
-                <p style={{color: '#444545', textAlign:'left', fontSize:'1.2em'}}>アメリカでお家を選ぶときに役立つ様々なチップをご紹介します。</p>
+                <p style={{color: '#444545', textAlign:'left', fontSize:'1.2em'}} lang="jp">アメリカでお家を選ぶときに役立つ様々なチップをご紹介します。</p>
             </div>
             <div className={classes.resourceLower}>
                 <div className={classes.content}>
                     <img src={Kitchen} alt="/" className={classes.pic}></img>
-                    <p className={classes.contentP}>キッチン</p>
+                    <p className={classes.contentP} lang="jp">キッチン</p>
                     <div className={classes.contentText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est.</div>
-                    <button className={classes.btn}>お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
+                    <button className={classes.btn} lang="jp">お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
                 </div>
                 <div className={classes.content}>
                     <img src={Bedroom} alt="/" className={classes.pic}></img>
-                    <p className={classes.contentP}>ベッドルーム</p>
+                    <p className={classes.contentP} lang="jp">ベッドルーム</p>
                     <div className={classes.contentText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est.</div>
-                    <button className={classes.btn}>お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
+                    <button className={classes.btn} lang="jp">お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
                 </div>
                 <div className={classes.content}>
                     <img src={Bathroom} alt="/" className={classes.pic}></img>
-                    <p className={classes.contentP}>バスルーム</p>
+                    <p className={classes.contentP} lang="jp">バスルーム</p>
                     <div className={classes.contentText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est.</div>
-                    <button className={classes.btn}>お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
+                    <button className={classes.btn} lang="jp">お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
                 </div>
                 <div className={classes.content}>
                     <img src={Utility} alt="/" className={classes.pic}></img>
-                    <p className={classes.contentP}>ユーティリティー</p>
+                    <p className={classes.contentP} lang="jp">ユーティリティー</p>
                     <div className={classes.contentText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est.</div>
-                    <button className={classes.btn}>お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
+                    <button className={classes.btn} lang="jp">お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
                 </div>
                 <div className={classes.content}>
                     <img src={Garage} alt="/" className={classes.pic}></img>
-                    <p className={classes.contentP}>ガレージ</p>
+                    <p className={classes.contentP} lang="jp">ガレージ</p>
                     <div className={classes.contentText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est.</div>
-                    <button className={classes.btn}>お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
+                    <button className={classes.btn} lang="jp">お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
                 </div>
                 <div className={classes.content}>
                     <img src={Backyard} alt="/" className={classes.pic}></img>
-                    <p className={classes.contentP}>外観</p>
+                    <p className={classes.contentP} lang="jp">外観</p>
                     <div className={classes.contentText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pretium quam vulputate dignissim suspendisse in est.</div>
-                    <button className={classes.btn}>お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
+                    <button className={classes.btn} lang="jp">お役立ち情報<ArrowForwardIosIcon className={classes.arrow}></ArrowForwardIosIcon></button>
                 </div>
             </div>
         </div>
