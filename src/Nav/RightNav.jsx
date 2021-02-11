@@ -69,7 +69,7 @@ function RightNav(props){
     return(
         <div className={classes.navbar}>
             <Ul open={props.open} >
-                <li  onClick={()=>props.setOpen(!props.open)}><Link to='/chizuki_watanabe' className={classes.link}>Chizuki Watanabe</Link></li>
+                <li  onClick={()=>props.setOpen(!props.open)}><Link to='/chizuki_watanabe' className={classes.link}>Real Estate</Link></li>
                 <li onClick={()=>props.setOpen(!props.open)}><Link to='/about' className={classes.link}>About</Link></li>
                 <li onClick={()=>props.setOpen(!props.open)}><Link to='/resource' className={classes.link}>Resources</Link></li>
                 <li onClick={()=>props.setOpen(!props.open)}><Link to='/realestate' className={classes.link}>Real Estate</Link></li>
